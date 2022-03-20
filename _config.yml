@@ -80,9 +80,12 @@ theme: maupassant-hexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: git@github.com:MobroChu/MobroChu.github.io.git
-  branch: master
+  - type: git
+    repository: git@github.com:MobroChu/MobroChu.github.io.git
+    branch: master
+  - type: git
+    repository: git@github.com:MobroChu/site.github.io.git
+    branch: master
 
 #  以下均为新增
 avatar: /images/avatar.jpg
